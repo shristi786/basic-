@@ -1,0 +1,11 @@
+name: concept
+on:
+  push:
+    branches:[main]
+jobs:
+  jobnamexyz:
+    runs-on:ubuntu-latest
+    steps:
+      - name:greetings
+        run:echo "hello bhai"
+      
